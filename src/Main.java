@@ -38,5 +38,25 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
+        // ДЗ Часть 3
+        System.out.println("ДЗ Часть 3");
+        // Задание 1
+        System.out.println("Задание 1");
+        int monthlySavings = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + monthlySavings;
+            System.out.println("За " + i + "-й месяц сумма накоплений составляет " + total + " руб.");
+        }
+        // Задание 2
+        System.out.println("Задание 2");
+        int monthlySavings2 = 29000;
+        int total2 = 0;
+        for (int i = 1; i <= 12; i++) {
+            total2 = total2 + total2/100;
+            total2 = total2 + monthlySavings2;
+            System.out.println("За " + i + "-й месяц сумма накоплений составляет " + total2 + " руб.");
+        }
+
     }
 }
